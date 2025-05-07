@@ -14,6 +14,8 @@ app.use(cors({
   credentials: true
 }));
 
+console.log("CORS configuration applied with specific origins");
+
 app.use(express.json());
 
 // MongoDB Connection
